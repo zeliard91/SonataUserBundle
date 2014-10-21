@@ -193,7 +193,7 @@ class UserAdmin extends Admin
                         ->add('locked', null, array('required' => false))
                         ->add('expired', null, array('required' => false))
                         ->add('enabled', null, array('required' => false))
-                        ->add('credentialsExpired', null, array('required' => false))
+                        ->add('credentialsExpired', 'checkbox', array('required' => false))
                     ->end()
                     ->with('Groups')
                         ->add('groups', 'sonata_type_model', array(
