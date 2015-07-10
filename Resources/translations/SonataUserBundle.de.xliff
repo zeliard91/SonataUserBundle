@@ -4,7 +4,7 @@
         <body>
             <trans-unit id="title_user_registration">
                 <source>title_user_registration</source>
-                <target>Benutzerregistrierung</target>
+                <target>Registrierung</target>
             </trans-unit>
             <trans-unit id="title_user_account">
                 <source>title_user_account</source>
@@ -69,6 +69,10 @@
             <trans-unit id="switch_user_exit">
                 <source>switch_user_exit</source>
                 <target>Benutzer imitieren beenden</target>
+            </trans-unit>
+            <trans-unit id="user_block_profile">
+                <source>user_block_profile</source>
+                <target>Profil</target>
             </trans-unit>
             <trans-unit id="switch_user">
                 <source>switch_user</source>
@@ -194,6 +198,14 @@
                 <source>field.label_roles_editable</source>
                 <target>Rollen</target>
             </trans-unit>
+            <trans-unit id="filter.label_username">
+                <source>filter.label_username</source>
+                <target>Benutzername</target>
+            </trans-unit>
+            <trans-unit id="filter.label_name">
+                <source>filter.label_name</source>
+                <target>Name</target>
+            </trans-unit>            
             <trans-unit id="filter.label_email">
                 <source>filter.label_email</source>
                 <target>E-Mail-Adresse</target>
@@ -214,6 +226,10 @@
                 <source>filter.label_locked</source>
                 <target>Gesperrt</target>
             </trans-unit>
+            <trans-unit id="filter.label_id">
+                <source>filter.label_id</source>
+                <target>ID</target>
+            </trans-unit>            
             <trans-unit id="filter.label_expired">
                 <source>filter.label_expired</source>
                 <target>Abgelaufen</target>
@@ -450,7 +466,6 @@
                 <source>gender_male</source>
                 <target>Männlich</target>
             </trans-unit>
-
             <trans-unit id="form.label_users">
                 <source>form.label_users</source>
                 <target>Benutzer</target>

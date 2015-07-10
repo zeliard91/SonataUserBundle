@@ -70,6 +70,10 @@
                 <source>user_block_logout</source>
                 <target equiv-trans="yes" state="final">Wyloguj</target>
             </trans-unit>
+            <trans-unit id="user_block_profile">
+                <source>user_block_profile</source>
+                <target>user_block_profile</target>
+            </trans-unit>
             <trans-unit id="user_form.label_username">
                 <source>form.label_username</source>
                 <target equiv-trans="yes" state="final">Nazwa konta</target>
@@ -129,6 +133,10 @@
             <trans-unit id="filter.label_id">
                 <source>filter.label_id</source>
                 <target equiv-trans="yes" state="final">ID</target>
+            </trans-unit>
+            <trans-unit id="filter.label_enabled">
+                <source>filter.label_enabled</source>
+                <target>Aktywny</target>
             </trans-unit>
             <trans-unit id="filter.label_groups">
                 <source>filter.label_groups</source>

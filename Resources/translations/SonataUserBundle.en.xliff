@@ -70,6 +70,10 @@
                 <source>user_block_logout</source>
                 <target>Logout</target>
             </trans-unit>
+            <trans-unit id="user_block_profile">
+                <source>user_block_profile</source>
+                <target>Profile</target>
+            </trans-unit>
             <trans-unit id="user_form.label_username">
                 <source>form.label_username</source>
                 <target>Username</target>
@@ -137,6 +141,10 @@
             <trans-unit id="filter.label_id">
                 <source>filter.label_id</source>
                 <target>ID</target>
+            </trans-unit>
+            <trans-unit id="filter.label_enabled">
+                <source>filter.label_enabled</source>
+                <target>Active</target>
             </trans-unit>
             <trans-unit id="filter.label_groups">
                 <source>filter.label_groups</source>
